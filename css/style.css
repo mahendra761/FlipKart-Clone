@@ -1,0 +1,215 @@
+/* font Family */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* nav section */
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.nav-container{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.nav-items{
+    width: 100%;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.top-search{
+    height: 40px;
+    width: 709px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.017); 
+    border-radius: 10px;
+    gap: 13px;
+    background-color: #eaf1fe;
+}
+.top-search>i{
+margin-left: 15px;
+font-size: 22px;
+color: #989898d6;
+}
+.top-search>input{
+    height: 38px;
+    border-radius: 10px;
+    background-color: #eaf1fe;
+    font-size: 17px;
+    font-weight: 400;
+    width: 700px;
+    outline: none;
+    border: none;
+}
+
+.user-profile,.seller,.top-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 42px;
+}
+.user-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.top-menu-item{
+    position: absolute;
+    top:78%;
+    right: 2%;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #b0b0b080;
+    display: flex;
+    width: 250px;
+     height: 150px;
+     border-radius: 8px;
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+}
+.top-menu:hover .top-menu-item{
+    visibility: visible;
+    opacity: 1;
+}
+.top-menu{
+    padding: 2px 15px;
+    border-radius: 5px;
+}
+.top-menu:hover {
+    background-color: #fcfafab5;
+    padding: 2px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px  #a8a7a790;
+}
+.top-menu-item{
+    gap: 10px;
+}
+.top-menu-item a{
+    text-decoration: none;
+    color: #000;
+}
+.user-item>a{
+text-decoration: none;
+font-size: 17px;
+font-weight: 400;
+color: #000;
+
+}
+.top-cart>a>i{
+    font-size: 22px;
+}
+.top-cart>a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+    }
+.seller>a>i{
+    font-size: 22px;
+}
+.seller>a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+    }
+    .top-menu>h4{
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .login-con{
+        position: relative;
+    }
+    
+    .sign-con{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 0px 10px;
+        margin-top: 10px;
+    }
+    .sign-con a{
+        text-decoration: none;
+        color: #000;
+    }
+    .login-items{
+        position: absolute;
+        top:80%;
+        right: 17%;
+        padding: 10px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px #b0b0b080;
+        display: flex;
+        width: 267px;
+         height: 250px;
+         border-radius: 8px;
+        flex-direction: column;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .sign{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgba(137, 135, 135, 0.471);
+        padding-bottom: 10px;
+    }
+    .sign>a{
+        text-decoration: none;
+        color: #0245fe;
+        font-weight: 600;
+    }
+    .sign>h5{
+        font-weight: 400;
+        font-size: 15px;
+
+    }
+    .user-profile{
+        padding: 8px 10px;  
+        border-radius: 10px;
+
+    }
+    .user-profile:hover .user-item>a{
+        color: #fff;
+    }
+    .user-profile:hover .login-items{
+        visibility: visible;
+        opacity: 1;
+    }
+    .fa-user{
+        color: #000;
+        font-size: 22px;
+    }
+    .user-profile:hover .fa-user{
+        color: #fff;
+    }
+    .fa-angle-down{
+        transition: all 0.8s;
+        color: #000;
+        font-size: 15px;
+    }
+    .user-profile:hover .fa-angle-down{
+        color: #fff;
+        transform: rotate(180deg);
+    }
+    .user-profile:hover{
+       background-color: #0231b5;
+       padding: 8px 10px;
+       border-radius: 10px;
+    }
