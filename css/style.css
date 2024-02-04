@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    /* border: 1px solid red; */
 }
 body{
     background-color: #F1F2F4;
@@ -392,7 +393,116 @@ font-weight: 500;
     --swiper-pagination-color: rgb(255, 255, 252);
 
   }
-  
-  
   /* swiper setion end */
+
+  /* top deals section */
+  .top-deals-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .container{
+  margin: 20px 0px;
+    width: 98%;
+    
+  }
+  .slider-wrapper {
+    position: relative;
+  }
+  .slider-wrapper .slide-button {
+    position: absolute;
+    top: 63%;
+    outline: none;
+    border: none;
+    height: 100px;
+    width: 35px;
+    z-index: 5;
+    color: #070606;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    font-size: 2.2rem;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+   
+    transform: translateY(-50%);
+  }
   
+  .slider-wrapper .slide-button#prev-slide {
+    left: 0px;
+    display: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(180, 180, 180, 0.5);
+
+  }
+  .slider-wrapper .slide-button#next-slide {
+    right: 0px;
+    box-shadow: -1px -1px 10px rgba(180, 180, 180, 0.5);
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 14px;
+  }
+  .slider-wrapper .image-list {
+    display: flex;
+  
+    gap: 18px;
+    font-size: 0;
+    list-style: none;
+  
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .slider-wrapper .image-list::-webkit-scrollbar {
+    display: none;
+  }
+  .slider-wrapper{
+    padding: 20px 0px;
+    width: 100%;
+    background-color: #fff;
+    align-items: center;
+  
+  }
+  .image-item{
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 4px;
+    height: 252px;
+    width: 500px;
+    padding: 10px 40px;
+  }
+  .image-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+  }
+  
+  
+  
+  .top-tittle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px ;
+  }
+
+  @media only screen and (max-width: 1023px) {
+    .slider-wrapper .slide-button {
+      display: none !important;
+    }
+    .slider-wrapper .image-list {
+      gap: 10px;
+      margin-bottom: 15px;
+      scroll-snap-type: x mandatory;
+    }
+    .slider-wrapper .image-list .image-item {
+      width: 280px;
+      height: 380px;
+    }
+    .slider-scrollbar .scrollbar-thumb {
+      width: 20%;
+    }
+  }
