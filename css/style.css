@@ -403,7 +403,7 @@ font-weight: 500;
     width: 100%;
   }
   .container{
-  margin: 20px 0px;
+  margin: 15px 0px 5px 0px;
     width: 98%;
     
   }
@@ -485,7 +485,7 @@ font-weight: 500;
   }
   .image-item>h5{
   font-size: 14px;
-  
+  font-weight: 600;
   line-height: 18px;
   &:hover{
     cursor: pointer;

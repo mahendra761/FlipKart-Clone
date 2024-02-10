@@ -1,319 +1,418 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlipKart Clone</title>
+    <title>Online Shopping Site FlipKart-Clone</title>
     <!-- css -->
     <link rel="stylesheet" href="/css/style.css">
 
     <!-- font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
-<!-- font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!-- swiper js -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-<!-- js files -->
-<script src="./app js/swiper.js" defer></script>
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <!-- js files -->
+
+    <script src="./app js/swiper.js" defer></script>
+
+    <!-- tabicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./Assets/flipkart logo.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Assets/favicon-32x32 f.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Assets/favicon-16x16 f.png">
+    <link rel="manifest" href="./Assets/flipkart logo.svg">
 
 </head>
+
 <body>
     <!-- nav section -->
-<nav>
-<div class="nav-container">
-    <div class="nav-items">
-        <div class="logo-1">
-            <img src="/Assets/flipkart logo.svg" alt="">
-        </div>
-        <div class="top-search">
-            <i class="fa-solid fa-magnifying-glass" "></i>
-            <input type="text" placeholder="Search for Products, Brands and More">
-        </div>
-        <div class="user-profile">
-            
-           <a href=""> <i class="fa-regular fa-user"></i></a>
-           <div class="user-item">           
-             <a href="" class="login-con">Login <i class="fa-solid fa-angle-down"></i> </a>
-            
-        </div>
-            <div class="login-items">
-                <div class="sign">
-                    <h5>New Customer ?</h5>
-                    <a href="">Sign Up</a>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-items">
+                <div class="logo-1">
+                    <img src="/Assets/flipkart logo.svg" alt="">
                 </div>
-                <div class="sign-con">
-                <a href=""><i class="fa-regular fa-user" style="color: #0c0f12;"></i>&nbsp;&nbsp; My Profile</a>
-                <a href=""><i class="fa-brands fa-gg" style="color: #070709;"></i>&nbsp;&nbsp; Flipkart Plus Zone</a>
-                <a href=""><i class="fa-solid fa-baby-carriage" style="color: #0a0c0f;"></i>&nbsp;&nbsp; Orders</a>
-                <a href=""><i class="fa-regular fa-heart" style="color: #08090d;"></i>&nbsp;&nbsp; Wishlist</a>
-                <a href=""><i class="fa-solid fa-gift" style="color: #0c0e13;"></i>&nbsp;&nbsp; Rewards</a>
-                <a href="" > <i class="fa-solid fa-gifts" style="color: #06070a;"></i>&nbsp;&nbsp; Gift Card</a>
-            </div>
-            </div>
-        </div>
-        <div class="top-cart">
-            <a href=""><i class="fa-solid fa-cart-shopping" style="color: #020203;"></i></a>
-            <a href="">Cart </a>
-        </div>
-        <div class="seller">
-            <a href=""><i class="fa-solid fa-store" style="color: #06070a;"></i></a>
-            <a href="">Become a Seller</a>
-        </div>
-        <div class="top-menu">
-            <h4><i class="fa-solid fa-ellipsis-vertical" style="color: #080a0c;"></i></h4>
-            <div class="top-menu-item">
-                <a href=""><i class="fa-regular fa-bell "style="color: #0b0c0f;" ></i>&nbsp;&nbsp; Notification Preferences</a>
-                <a href=""><i class="fa-solid fa-headset" style="color: #0b0c0f;"></i>&nbsp;&nbsp; 24/7 Customer care</a>
-                <a href=""><i class="fa-solid fa-rectangle-ad" style="color: #06070a;"></i>&nbsp;&nbsp; Advertise</a>
-                <a href=""><i class="fa-solid fa-download" style="color: #07090e;"></i>&nbsp;&nbsp; Download App</a>
-            </div>
-        </div>
+                <div class="top-search">
+                    <i class="fa-solid fa-magnifying-glass" "></i>
+            <input type=" text" placeholder="Search for Products, Brands and More">
+                </div>
+                <div class="user-profile">
 
-    </div>
-</div>
-</nav>
-<!-- nav section end -->
+                    <a href=""> <i class="fa-regular fa-user"></i></a>
+                    <div class="user-item">
+                        <a href="" class="login-con">Login <i class="fa-solid fa-angle-down"></i> </a>
 
-<!-- hero secction start -->
-<main>
-    <div class="main-drop">
-<div class="top-dropdown-container">
-    <div class="drop-down-item">
-        <div class="drop-items">
-            <img src="./Assets/groceryimg.webp" alt="">
-            <a href="">Grocery</a>
+                    </div>
+                    <div class="login-items">
+                        <div class="sign">
+                            <h5>New Customer ?</h5>
+                            <a href="">Sign Up</a>
+                        </div>
+                        <div class="sign-con">
+                            <a href=""><i class="fa-regular fa-user" style="color: #0c0f12;"></i>&nbsp;&nbsp; My
+                                Profile</a>
+                            <a href=""><i class="fa-brands fa-gg" style="color: #070709;"></i>&nbsp;&nbsp; Flipkart Plus
+                                Zone</a>
+                            <a href=""><i class="fa-solid fa-baby-carriage" style="color: #0a0c0f;"></i>&nbsp;&nbsp;
+                                Orders</a>
+                            <a href=""><i class="fa-regular fa-heart" style="color: #08090d;"></i>&nbsp;&nbsp;
+                                Wishlist</a>
+                            <a href=""><i class="fa-solid fa-gift" style="color: #0c0e13;"></i>&nbsp;&nbsp; Rewards</a>
+                            <a href=""> <i class="fa-solid fa-gifts" style="color: #06070a;"></i>&nbsp;&nbsp; Gift
+                                Card</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-cart">
+                    <a href=""><i class="fa-solid fa-cart-shopping" style="color: #020203;"></i></a>
+                    <a href="">Cart </a>
+                </div>
+                <div class="seller">
+                    <a href=""><i class="fa-solid fa-store" style="color: #06070a;"></i></a>
+                    <a href="">Become a Seller</a>
+                </div>
+                <div class="top-menu">
+                    <h4><i class="fa-solid fa-ellipsis-vertical" style="color: #080a0c;"></i></h4>
+                    <div class="top-menu-item">
+                        <a href=""><i class="fa-regular fa-bell " style="color: #0b0c0f;"></i>&nbsp;&nbsp; Notification
+                            Preferences</a>
+                        <a href=""><i class="fa-solid fa-headset" style="color: #0b0c0f;"></i>&nbsp;&nbsp; 24/7 Customer
+                            care</a>
+                        <a href=""><i class="fa-solid fa-rectangle-ad" style="color: #06070a;"></i>&nbsp;&nbsp;
+                            Advertise</a>
+                        <a href=""><i class="fa-solid fa-download" style="color: #07090e;"></i>&nbsp;&nbsp; Download
+                            App</a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="drop-items">
-            <img src="./Assets/mobileimg.webp" alt="">
-            <a href="">Mobiles</a>
-        </div>
-        <div class="drop-items">
-            <img src="./Assets/fashionimg.webp" alt="">
-            <div class="drop-it">
-                <a href="" class="drop-a">Fashion &nbsp;<i class="fa-solid fa-angle-down" ></i></a>
-                <div class="two-w">
-                    <a href="">Men's Top Wear</a>
-                    <a href="">Men's Bottom Wear</a>
-                    <a href="">Women Ethic</a>
-                    <a href="">Women Western</a>
-                    <a href="">Men Footwear</a>
-                    <a href="">Women Western</a>
-                    <a href="">Women Footwear</a>
-                    <a href="">Watches and Accessories</a>
-                    <a href="">Kids</a>
-                    <a href="">Winter</a>
+    </nav>
+    <!-- nav section end -->
+
+    <!-- hero secction start -->
+    <main>
+        <div class="main-drop">
+            <div class="top-dropdown-container">
+                <div class="drop-down-item">
+                    <div class="drop-items">
+                        <img src="./Assets/groceryimg.webp" alt="">
+                        <a href="">Grocery</a>
+                    </div>
+                    <div class="drop-items">
+                        <img src="./Assets/mobileimg.webp" alt="">
+                        <a href="">Mobiles</a>
+                    </div>
+                    <div class="drop-items">
+                        <img src="./Assets/fashionimg.webp" alt="">
+                        <div class="drop-it">
+                            <a href="" class="drop-a">Fashion &nbsp;<i class="fa-solid fa-angle-down"></i></a>
+                            <div class="two-w">
+                                <a href="">Men's Top Wear</a>
+                                <a href="">Men's Bottom Wear</a>
+                                <a href="">Women Ethic</a>
+                                <a href="">Women Western</a>
+                                <a href="">Men Footwear</a>
+                                <a href="">Women Western</a>
+                                <a href="">Women Footwear</a>
+                                <a href="">Watches and Accessories</a>
+                                <a href="">Kids</a>
+                                <a href="">Winter</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="drop-items">
+                        <img src="./Assets/electronicimg.webp" alt="">
+                        <div class="drop-it">
+                            <a href="" class="drop-a">Electronics &nbsp;<i class="fa-solid fa-angle-down"></i></a>
+                            <div class="two-w">
+                                <a href="">Audio</a>
+                                <a href="">Electronics GST Store</a>
+                                <a href="">Cameras & Accessories</a>
+                                <a href="">Computer Peripherals</a>
+                                <a href="">Gaming</a>
+                                <a href="">Health </a>
+                                <a href="">Laptop</a>
+                                <a href="">Powerbank</a>
+                                <a href="">Smart Home automation</a>
+                                <a href="">Mobile Accessory</a>
+                                <a href="">Fan & Fridge</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="drop-items">
+                        <img src="./Assets/homefimg.webp" alt="">
+                        <div class="drop-it">
+                            <a href="" class="drop-a">Home & Furniture &nbsp;<i class="fa-solid fa-angle-down"></i></a>
+                            <div class="two-w">
+                                <a href="">Home Furnishings</a>
+                                <a href="">Furniture Studio</a>
+                                <a href="">Living Room Furniture</a>
+                                <a href="">Kitchen & Dining</a>
+                                <a href="">Bedroom Furniture</a>
+                                <a href="">Space Saving Furniture</a>
+                                <a href="">Tools & Utility</a>
+                                <a href="">Kids Furniture</a>
+                                <a href="">Smart Home automation</a>
+                                <a href="">Lighting & Electric</a>
+                                <a href="">Bed</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="drop-items">
+                        <img src="./Assets/appliances.webp" alt="">
+                        <a href="">Appliances</a>
+                    </div>
+                    <div class="drop-items">
+                        <img src="./Assets/travelimg.webp" alt="">
+                        <a href="">Travel</a>
+                    </div>
+                    <div class="drop-items">
+                        <img src="./Assets/toysimg.webp" alt="">
+                        <div class="drop-it">
+                            <a href="" class="drop-a">Beauty,Toys & More &nbsp;<i
+                                    class="fa-solid fa-angle-down"></i></a>
+                            <div class="two-w">
+                                <a href="">Beauty & Personal Care</a>
+                                <a href="">Men's Grooming</a>
+                                <a href="">Baby Care</a>
+                                <a href="">Nutrition & Health Care</a>
+                                <a href="">Toys & School Supplies</a>
+                                <a href="">Sports & Fitness </a>
+                                <a href="">Books</a>
+                                <a href="">Music</a>
+                                <a href="">Face Makeup</a>
+                                <a href="">Hair Care</a>
+                                <a href="">Eye Makeup</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="drop-items">
+                        <img src="./Assets/two wheelersimg.webp" alt="">
+                        <div class="drop-it">
+                            <a href="" class="drop-a">Two Wheelers &nbsp;<i class="fa-solid fa-angle-down"></i></a>
+                            <div class="two-w">
+                                <a href="">Petrol Vehicles</a>
+                                <a href="">Electric Vehicles</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="drop-items">
-            <img src="./Assets/electronicimg.webp" alt="">
-            <div class="drop-it">
-                <a href="" class="drop-a">Electronics &nbsp;<i class="fa-solid fa-angle-down" ></i></a>
-                <div class="two-w">
-                    <a href="">Audio</a>
-                    <a href="">Electronics GST Store</a>
-                    <a href="">Cameras & Accessories</a>
-                    <a href="">Computer Peripherals</a>
-                    <a href="">Gaming</a>
-                    <a href="">Health </a>
-                    <a href="">Laptop</a>
-                    <a href="">Powerbank</a>
-                    <a href="">Smart Home automation</a>
-                    <a href="">Mobile Accessory</a>
-                    <a href="">Fan & Fridge</a>
+        <!-- dropdown section end -->
+
+        <!-- swiper js start -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./Assets/swipertv.webp" alt="" loading="eager">
+
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Assets/swiperimg12.webp" loading="eager">
+
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Assets/swiperimg8.webp" loading="eager">
+
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Assets/swipercamimg.webp" loading="eager">
+
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Assets/swiperimg1.webp" loading="eager">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Assets/swiperimg9.webp" loading="eager">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Assets/swiperimg5.webp" loading="eager">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./Assets/swiperphoneimg.webp" loading="eager">
                 </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
-        <div class="drop-items">
-            <img src="./Assets/homefimg.webp" alt="">
-            <div class="drop-it">
-                <a href="" class="drop-a">Home & Furniture &nbsp;<i class="fa-solid fa-angle-down" ></i></a>
-                <div class="two-w">
-                    <a href="">Home Furnishings</a>
-                    <a href="">Furniture Studio</a>
-                    <a href="">Living Room Furniture</a>
-                    <a href="">Kitchen & Dining</a>
-                    <a href="">Bedroom Furniture</a>
-                    <a href="">Space Saving Furniture</a>
-                    <a href="">Tools & Utility</a>
-                    <a href="">Kids Furniture</a>
-                    <a href="">Smart Home automation</a>
-                    <a href="">Lighting & Electric</a>
-                    <a href="">Bed</a>
+
+
+        <!-- swiper js end -->
+
+        <!-- top deals Section -->
+        <div class="top-deals-sec">
+            <div class="container">
+                <div class="slider-wrapper">
+                    <div class="top-tittle">
+                        <h3>Top Deals</h3>
+                        <div class="all-top-btn">
+                            <a href=""> <i class="fa-solid fa-chevron-right" style=" font-size: 12px;"></i></a>
+                        </div>
+                    </div>
+                    <button id="prev-slide" class="slide-button material-symbols-rounded">
+                        <i class="fa-solid fa-chevron-left" style="color: #020203c8; font-size: 12px;"></i>
+
+                    </button>
+                    <div class="image-list">
+
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/topsec- img/topimg1.webp" alt="img-1" /></a>
+                            <h3>Camera</h3>
+                            <h5>From ₹9999</h5>
+
+                        </div>
+                        <div class="image-item">
+                            <a href=""> <img src="./Assets/topsec- img/topimg10.webp" alt="img-1" /></a>
+                            <h3>Phones</h3>
+                            <h5>From ₹7999</h5>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/topsec- img/topimg3.webp" alt="img-1" /></a>
+                            <h3> Dell Keyboard</h3>
+                            <h5>From ₹7999</h5>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/topsec- img/topimg4.webp" alt="img-1" /></a>
+                            <h3>Monitor</h3>
+                            <h5>From ₹1999</h5>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/topsec- img/topimg2.webp" alt="img-1" /></a>
+                            <h3>Zebronics Keyboard</h3>
+                            <h5>From ₹599</h5>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/topsec- img/topimg6.webp" alt="img-1" /></a>
+                            <h3>Top Laptops</h3>
+                            <h5>From ₹24999</h5>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/topsec- img/topimg7.webp" alt="img-1" /></a>
+                            <h3>Vivo Phone's</h3>
+                            <h5>From ₹8999</h5>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/topsec- img/topimg8.webp" alt="img-1" /></a>
+                            <h3>Watche's</h3>
+                            <h5>From ₹299</h5>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/topsec- img/topimg9.webp" alt="img-1" /></a>
+                            <h3>Powerbank</h3>
+                            <h5>From ₹699</h5>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/topsec- img/topimg5.webp" alt="img-1" /></a>
+                            <h3>Boy's T-shirt</h3>
+                            <h5>From ₹359</h5>
+                        </div>
+
+                    </div>
+                    <button id="next-slide" class="slide-button material-symbols-rounded">
+                        <i class="fa-solid fa-chevron-right" style="color: #020203c8; font-size: 12px;"></i>
+                    </button>
                 </div>
+              </div>
             </div>
-        </div>
-        <div class="drop-items">
-            <img src="./Assets/appliances.webp" alt="">
-            <a href="">Appliances</a>
-        </div>
-        <div class="drop-items">
-            <img src="./Assets/travelimg.webp" alt="">
-            <a href="">Travel</a>
-        </div>
-        <div class="drop-items">
-            <img src="./Assets/toysimg.webp" alt="">
-            <div class="drop-it">
-                <a href="" class="drop-a">Beauty,Toys & More &nbsp;<i class="fa-solid fa-angle-down" ></i></a>
-                <div class="two-w">
-                    <a href="">Beauty & Personal Care</a>
-                    <a href="">Men's Grooming</a>
-                    <a href="">Baby Care</a>
-                    <a href="">Nutrition & Health Care</a>
-                    <a href="">Toys & School Supplies</a>
-                    <a href="">Sports & Fitness </a>
-                    <a href="">Books</a>
-                    <a href="">Music</a>
-                    <a href="">Face Makeup</a>
-                    <a href="">Hair Care</a>
-                    <a href="">Eye Makeup</a>
+        <!-- top deals section end -->
+
+        <!-- Beauty Section start -->
+        <div class="top-deals-sec">
+            <div class="container">
+                <div class="slider-wrapper">
+                    <div class="top-tittle">
+                        <h3>Beauty, Food, Toys & more</h3>
+                        <div class="all-top-btn">
+                            <a href=""> <i class="fa-solid fa-chevron-right" style=" font-size: 12px;"></i></a>
+                        </div>
+                    </div>
+                    <button id="prev-slide"  class="slide-button material-symbols-rounded">
+                        <i class="fa-solid fa-chevron-left" style="color: #020203c8; font-size: 12px;"></i>
+
+                    </button>
+                    <div class="image-list">
+
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/Beauty images/beautyimg8.webp" alt="img-1" /></a>
+                            <h3>Exercise Bikes &</h3>
+                            <h5>Upto 75% Off</h5>
+
+                        </div>
+                        <div class="image-item">
+                            <a href=""> <img src="./Assets/Beauty images/beautyimg2.webp" alt="img-1" /></a>
+                            <h3>Geared Cycles</h3>
+                            <h5>From ₹999</h5>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/Beauty images/beautyimg3.webp" alt="img-1" /></a>
+                            <h3> Guitar</h3>
+                            <h5>Upto 35% Off</h5>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/Beauty images/beautyimg4.webp" alt="img-1" /></a>
+                            <h3>Coffee Powder</h3>
+                            <h5>Upto 10% Off</h5>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/Beauty images/beautyimg5.webp" alt="img-1" /></a>
+                            <h3>Soft Toys</h3>
+                            <h5>Upto 60% Off</h5>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/Beauty images/beautyimg6.webp" alt="img-1" /></a>
+                            <h3>Best Action Toys</h3>
+                            <h5>Upto 15% Off</h5>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/Beauty images/beautyimg7.webp" alt="img-1" /></a>
+                            <h3>Microphone's</h3>
+                            <h5>Upto 70% Off</h5>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/Beauty images/beauty.webp" alt="img-1" /></a>
+                            <h3>Peanut butter</h3>
+                            <h5>Upto 10% Off</h5>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/Beauty images/beautyimg9.webp" alt="img-1" /></a>
+                            <h3>GYM Exercise Bikes &</h3>
+                            <h5>Upto 30% Off</h5>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="./Assets/Beauty images/beautyimg10.webp" alt="img-1" /></a>
+                            <h3>Toy's</h3>
+                            <h5>Upto 50% Off</h5>
+                        </div>
+
+                    </div>
+                    <button id="next-slide"  class="slide-button material-symbols-rounded">
+                        <i class="fa-solid fa-chevron-right" style="color: #020203c8; font-size: 12px;"></i>
+                    </button>
                 </div>
+              </div>
             </div>
-        </div>
-        <div class="drop-items">
-            <img src="./Assets/two wheelersimg.webp" alt="">
-            <div class="drop-it">
-            <a href="" class="drop-a">Two Wheelers &nbsp;<i class="fa-solid fa-angle-down"></i></a>
-            <div class="two-w">
-                <a href="">Petrol Vehicles</a>
-                <a href="">Electric Vehicles</a>
-            </div>
-        </div>
-        </div>
-    </div>
-</div>
-</div>
-<!-- dropdown section end -->
+        <!-- Beauty Section end -->
 
-<!-- swiper js start -->
-<div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="./Assets/swipertv.webp" alt="" loading="eager">
-      
-      </div>
-      <div class="swiper-slide">
-        <img src="./Assets/swiperimg12.webp" loading="eager">
-       
-      </div>
-      <div class="swiper-slide">
-        <img src="./Assets/swiperimg8.webp" loading="eager">
-       
-      </div>
-      <div class="swiper-slide">
-        <img src="./Assets/swipercamimg.webp" loading="eager">
-      
-      </div>
-      <div class="swiper-slide">
-        <img src="./Assets/swiperimg1.webp" loading="eager">
-        </div>
-      <div class="swiper-slide">
-        <img src="./Assets/swiperimg9.webp" loading="eager">
-        </div>
-      <div class="swiper-slide">
-        <img src="./Assets/swiperimg5.webp" loading="eager">
-        </div>
-      <div class="swiper-slide">
-        <img src="./Assets/swiperphoneimg.webp" loading="eager">
-        </div>
-    </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
- </div>
-  
-
-<!-- swiper js end -->
-
-<!-- top deals Section -->
-<div class="top-deals-sec">
-<div class="container">
-    <div class="slider-wrapper">
-        <div class="top-tittle">
-            <h3>Top Deals</h3>
-            <div class="all-top-btn">
-        <a href=""> <i class="fa-solid fa-chevron-right" style=" font-size: 12px;"></i></a>
-            </div>
-        </div>
-      <button id="prev-slide" class="slide-button material-symbols-rounded">
-        <i class="fa-solid fa-chevron-left" style="color: #020203c8; font-size: 12px;"></i>
-      
-      </button>
-      <div class="image-list">
-       
-        <div class="image-item" >
-        <a href=""><img src="./Assets/topsec- img/topimg1.webp" alt="img-1" /></a>
-        <h3>Camera</h3>
-        <h5>From ₹9999</h5>
-    
-    </div>
-        <div class="image-item" >
-       <a href=""> <img src="./Assets/topsec- img/topimg10.webp" alt="img-1" /></a>
-        <h3 >Phones</h3>
-        <h5>From ₹7999</h5>
-    </div>
-        <div class="image-item" >
-            <a href=""><img src="./Assets/topsec- img/topimg3.webp" alt="img-1" /></a>
-        <h3> Dell Keyboard</h3>
-        <h5>From ₹7999</h5>
-    </div>
-        <div class="image-item" >
-            <a href=""><img src="./Assets/topsec- img/topimg4.webp" alt="img-1" /></a>
-        <h3 >Monitor</h3>
-        <h5>From ₹1999</h5>
-    </div>
-        <div class="image-item" >
-            <a href=""><img src="./Assets/topsec- img/topimg2.webp" alt="img-1" /></a>
-        <h3 >Zebronics Keyboard</h3>
-        <h5>From ₹599</h5>
-    </div>
-        <div class="image-item" >
-            <a href=""><img src="./Assets/topsec- img/topimg6.webp" alt="img-1" /></a>
-        <h3 >Top Laptops</h3>
-        <h5>From ₹24999</h5>
-    </div>
-        <div class="image-item" >
-            <a href=""><img src="./Assets/topsec- img/topimg7.webp" alt="img-1" /></a>
-        <h3>Vivo Phone's</h3>
-        <h5>From ₹8999</h5>
-    </div>
-        <div class="image-item" >
-            <a href=""><img src="./Assets/topsec- img/topimg8.webp" alt="img-1" /></a>
-        <h3 >Watche's</h3>
-        <h5>From ₹299</h5>
-    </div>
-        <div class="image-item" >
-            <a href=""><img src="./Assets/topsec- img/topimg9.webp" alt="img-1" /></a>
-        <h3 >Powerbank</h3>
-        <h5>From ₹699</h5>
-    </div>
-        <div class="image-item" >
-        <a href=""><img src="./Assets/topsec- img/topimg5.webp" alt="img-1" /></a>
-        <h3>Boy's T-shirt</h3>
-        <h5>From ₹359</h5>
-    </div>
-       
-      </div>
-      <button id="next-slide" class="slide-button material-symbols-rounded">
-        <i class="fa-solid fa-chevron-right" style="color: #020203c8; font-size: 12px;"></i>
-      </button>
-    </div>
-    
-  </div>
-  <!-- <img src="./Assets/topdealendimg.webp" height="360px" width="200px" alt=""> -->
-</div>
-<!-- top deals section end -->
-</main>
-
-<script>
-   
-</script>
-<!-- swiper js -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    </main>
+    <!-- Js files -->
+    <script src="./app js/toysec.js"></script>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
 </body>
+
 </html>
