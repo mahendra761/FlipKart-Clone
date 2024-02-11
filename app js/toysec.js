@@ -41,3 +41,4 @@ const initSlider = () => {
 
   initSlider();
   
+  
