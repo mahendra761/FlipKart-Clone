@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 body{
     background-color: #F1F2F4;
@@ -536,4 +536,58 @@ font-weight: 500;
     .slider-scrollbar .scrollbar-thumb {
       width: 20%;
     }
+  }
+
+  /*<!-- Must Have Electronics section start-->  */
+
+  .electronics-main{
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .electronics-container{
+    width: 98%;
+    display: flex;
+    border: 1px solid black;
+  }
+  .electronics-item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+    gap: 10px;
+  }
+
+  .electronic-card{
+    height: 252px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid black;
+  }
+  .electronic-card>img ,.travel-card>img{
+    width: 180px;
+    object-fit: contain;
+    height: 180px;
+  }
+  .travel-item{
+    display: flex;
+    
+   background-color: #000;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 10px;
+  }
+  .travel-card{
+    height: 252px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid black;
+  }
+  .electronics-item31.img{
+    height: 498px;
+    width: 498px;
   }
