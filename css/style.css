@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 body{
     background-color: #F1F2F4;
@@ -542,52 +542,83 @@ font-weight: 500;
 
   .electronics-main{
     width: 100%;
-    margin: 20px 0px;
+    margin: 10px 0px 0px 0px;
     display: flex;
     justify-content: center;
   }
   .electronics-container{
     width: 98%;
     display: flex;
-    border: 1px solid black;
+    gap: 17px;
+    
   }
   .electronics-item1{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
     flex-wrap: wrap;
-    width: 30%;
+    width: 34%;
+    height: fit-content;
+  padding:10px;
     gap: 10px;
+   
   }
-
+  
+  .electronic-card>a{
+    text-decoration: none;
+    width: 100%;
+    font-size: 17px;
+    color: #494848c3;
+    margin-top: 5px;
+    line-height: 18px;
+  }
+ 
+  
   .electronic-card{
-    height: 252px;
-    width: 200px;
-    margin-top: 20px;
-    background-color: #fff;
-    border: 1px solid black;
-  }
-  .electronic-card>img ,.travel-card>img{
-    width: 180px;
-    object-fit: contain;
-    height: 180px;
-  }
-  .travel-item{
+    height: 280px;
+    width: 220px;
+   
+  padding: 10px;
     display: flex;
-    
-   background-color: #000;
-    flex-wrap: wrap;
-    width: 50%;
-    gap: 10px;
-  }
-  .travel-card{
-    height: 252px;
-    width: 200px;
-    margin-top: 20px;
+    flex-direction: column;
     background-color: #fff;
-    border: 1px solid black;
+    border: 1px solid rgba(184, 184, 184, 0.79);
+    border-radius: 4px;
   }
-  .electronics-item31.img{
-    height: 498px;
-    width: 498px;
+  .electronic-card>img {
+    width: 190px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+    height: 190px;
+    transition: all 0.3s;
+    &:hover{
+      scale: 1.1;
+    }
+  }
+  .electronic_tittle{
+    display: flex;
+    padding: 10px 0px;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+  }
+  .electronic_tittle>a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+  }
+  .electronic_btn>a>i{
+    background-color: #0231b5;
+    border-radius: 50%;
+    padding: 10px;
+    line-height: 10px;
+    color: #fff;
+  }
+  .electronics_item3>a>img{
+    height: 650px;
+    width: 500px;
+    object-fit: fill;
   }
