@@ -622,3 +622,8 @@ font-weight: 500;
     width: 500px;
     object-fit: fill;
   }
+  .gift_item3>a>img{
+    height: 650px;
+    width:1000px;
+    object-fit: fill;
+  }
