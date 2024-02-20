@@ -627,3 +627,27 @@ font-weight: 500;
     width:1000px;
     object-fit: fill;
   }
+
+  /* mobile banner */
+  .mobile_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .mobile_banner img{
+    height: auto;
+    width: 98%;
+    object-fit: fill;
+  }
+  .discount-img>img{
+    height: 120px;
+    mix-blend-mode: multiply;
+   filter: drop-shadow(5px 5px 10px #f1b9029d);
+   border-radius: 10px;
+  }
+  .discount-img{
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
