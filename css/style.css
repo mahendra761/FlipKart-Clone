@@ -633,13 +633,15 @@ font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 8px;
     flex-direction: column;
   }
   .mobile_banner img{
     height: auto;
     width: 98%;
     object-fit: fill;
+    mix-blend-mode: multiply;
+
   }
   .discount-img>img{
     height: 120px;
@@ -651,3 +653,104 @@ font-weight: 500;
     margin-top: 15px;
     margin-bottom: 0;
   }
+
+  /* footer section start */
+   footer{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #212121;
+   }
+   .footer-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+   }
+   .footer-items{
+    padding: 40px 60px ;
+    display: flex;
+    gap: 45px;
+    width: 100%;
+    border-bottom: 1px solid rgb(181, 181, 179);
+   }
+   .about-item h2{
+    font-weight: 400;
+    font-size: 12px;
+    color: #878787;
+   }
+   .address-items{
+    display: flex;
+    justify-content: space-around;
+    border-left: 1px solid #878787;
+  
+   }
+   .social-p{
+    margin-top: 15px;
+   }
+   .social-icons{
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+   }
+   .social-icons a i{
+    font-size: 25px;
+   }
+   .address-items{
+    padding-left: 30px;
+   }
+   .social-icons>h4>a{
+    font-weight: 500;
+    color: #5108fc;
+    font-size: 12px;
+   }
+   
+   .about-item{
+   width: 45%;
+   
+   }
+   .about-link{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+   
+   }
+   .about-link p{
+    color: #ffff;
+    font-size: 12px;
+   }
+   .about-link a{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    &:hover{
+      text-decoration: underline;
+      
+    }
+
+   }
+   .footer-end{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px;
+   }
+   .footer-end-items{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   }
+   .footer-end-items a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #ffff;
+   }
+   .footer-end-items>h3{
+    font-size: 13px;
+    color: #ffff;
+    font-weight: 400;
+   }
+  /*footer section end  */

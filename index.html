@@ -39,7 +39,7 @@
    
 </head>
 
-<body>
+<body >
     <!-- nav section -->
     <nav>
         <div class="nav-container">
@@ -49,7 +49,7 @@
                 </div>
                 <div class="top-search">
                     <i class="fa-solid fa-magnifying-glass" "></i>
-            <input type=" text" placeholder="Search for Products, Brands and More">
+            <input type=" text" placeholder="Search for Products, Brands and More"  id="myInput" onkeyup="myFunction()">
                 </div>
                 <div class="user-profile">
 
@@ -258,8 +258,8 @@
         <!-- swiper js end -->
 
         <!-- top deals Section -->
-        <div class="top-deals-sec">
-            <div class="container">
+        <div class="top-deals-sec" >
+            <div class="container" id="myUL">
                 <div class="slider-wrapper">
                     <div class="top-tittle">
                         <h3>Top Deals</h3>
@@ -912,9 +912,238 @@
     </div>
 
    <!-- Mobiles & Laptop's  section end-->
+
+     <!-- Home & Furniture banner-->
+     <div class="mobile_banner">
+        <img src="./Assets/home&furb.png" >
+      
+       </div>
+        
+        <!-- Home & Furniture banner -->
+
+        <!-- Home & Furniture Section start -->
+<div class="top-deals-sec">
+    <div class="container">
+        <div class="slider-wrapper">
+            <div class="top-tittle">
+                <h3>Home & Furniture</h3>
+                <div class="all-top-btn">
+                    <a href=""> <i class="fa-solid fa-chevron-right" style=" font-size: 12px;"></i></a>
+                </div>
+            </div>
+            <button id="prev-slide"  class="slide-button material-symbols-rounded">
+                <i class="fa-solid fa-chevron-left" style="color: #020203c8; font-size: 12px;"></i>
+
+            </button>
+            <div class="image-list">
+
+                <div class="image-item">
+                    <a href=""><img src="./Assets/furnitureimg/furnitureimg1.webp" alt="img-1" /></a>
+                    <h3>Recliners</h3>
+                    <h5>From ₹11,899</h5>
+
+                </div>
+                <div class="image-item">
+                    <a href=""> <img src="./Assets/furnitureimg/furnitureimg7.webp" alt="img-1" /></a>
+                    <h3>Fabric 3 Seater Sofa</h3>
+                    <h5>Under ₹7,999</h5>
+                </div>
+                <div class="image-item">
+                    <a href=""><img src="./Assets/furnitureimg/furnitureimg8.webp" alt="img-1" /></a>
+                    <h3>Fabric 2 Seater Sofa </h3>
+                    <h5>From ₹20,599</h5>
+                </div>
+                <div class="image-item">
+                    <a href=""><img src="./Assets/furnitureimg/furnitureimg2.webp" alt="img-1" /></a>
+                    <h3>Inflatable Sofas</h3>
+                    <h5>Under ₹5,999</h5>
+                </div>
+                <div class="image-item">
+                    <a href=""><img src="./Assets/furnitureimg/furnitureimg9.webp" alt="img-1" /></a>
+                    <h3> Metal Pull Out Sofa </h3>
+                    <h5>Under ₹52,999</h5>
+                </div>
+                <div class="image-item">
+                    <a href=""><img src="./Assets/furnitureimg/furnitureimg10.webp" alt="img-1" /></a>
+                    <h3> Dallas 3 Seater Beds </h3>
+                    <h5>Upto 20% Off</h5>
+                </div>
+                <div class="image-item">
+                    <a href=""><img src="./Assets/furnitureimg/furnitureimg4.webp" alt="img-1" /></a>
+                    <h3>Side Tables</h3>
+                    <h5>Under ₹999</h5>
+                </div>
+                <div class="image-item">
+                    <a href=""><img src="./Assets/furnitureimg/furnitureimg5.webp" alt="img-1" /></a>
+                    <h3>Ottoman And Pouffes</h3>
+                    <h5>Upto 20% Off</h5>
+                </div>
+                <div class="image-item">
+                    <a href=""><img src="./Assets/furnitureimg/furnitureimg6.webp" alt="img-1" /></a>
+                    <h3>Study Table's</h3>
+                    <h5>Upto 40% Off</h5>
+                </div>
+                <div class="image-item">
+                    <a href=""><img src="./Assets/furnitureimg/furnitureimg3.webp" alt="img-1" /></a>
+                    <h3>Book Shelfs  </h3>
+                    <h5>Upto 10% Off</h5>
+                </div>
+
+            </div>
+            <button id="next-slide"  class="slide-button material-symbols-rounded">
+                <i class="fa-solid fa-chevron-right" style="color: #020203c8; font-size: 12px;"></i>
+            </button>
+        </div>
+      </div>
+    </div>
+        <!-- Home & Furniture Section end -->
+
+
+        
     </main>
+    <!-- main section end -->
+
+    <!-- footer section start -->
+    <footer>
+        <div class="footer-container" >
+            <div class="footer-items">
+                <div class="about-item">
+                    <h2>ABOUT</h2>
+                    <div class="about-link">
+                    <a href="">Contact Us</a>
+                    <a href="">About Us</a>
+                    <a href="">Careers</a>
+                    <a href="">Flipkart Stories</a>
+                    <a href="">Press</a>
+                    <a href="">Corporate Information</a>
+                </div>
+            </div>
+                <div class="about-item">
+                    <h2>GROUP COMPANIES</h2>
+                    <div class="about-link">
+                    <a href="">Myntra</a>
+                    <a href="">Flipkart Wholesale</a>
+                    <a href="">Cleartrip</a>
+                    <a href="">Shopsy</a>
+                </div>
+            </div>
+                <div class="about-item">
+                    <h2>HELP</h2>
+                    <div class="about-link">
+                    <a href="">Payments</a>
+                    <a href="">Shipping</a>
+                    <a href="">Cancellation & Returns</a>
+                    <a href="">Flipkart Stories</a>
+                    <a href="">FAQ</a>
+                    <a href="">Report Infringement</a>
+                </div>
+            </div>
+                <div class="about-item">
+                    <h2>CONSUMER POLICY</h2>
+                    <div class="about-link">
+                    <a href="">Cancellation</a>
+                    <a href="">Terms Of Use</a>
+                    <a href="">Security</a>
+                    <a href="">Privacy</a>
+                    <a href="">Sitemap</a>
+                    <a href="">Grievance Redressal</a>
+                    <a href="">EPR Compliance</a>
+                </div>
+            </div>
+            <div class="address-items">
+                <div class="about-item">
+                    <h2>Mail Us:</h2>
+                    <div class="about-link">
+                   <p>Flipkart Internet Private Limited, 
+                    Buildings Alyssa, Begonia & Clove Embassy
+                     Tech Village, Outer Ring Road, Devarabeesanahalli
+                      Village, Bengaluru, 560103,</p>
+                 
+                        <div class="social-p">
+                            <h2>Social:</h2>
+                            <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook" style="color: #fcfcfc;"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+                              <a href=""><i class="fa-brands fa-youtube" style="color: #fcfcfd;"></i></a>
+                          </div>
+                          </div>
+                    
+                </div>
+                
+            </div>
+                <div class="about-item">
+                    <h2>Registered Office Address</h2>
+                    <div class="about-link">
+                   <p>Flipkart Internet Private Limited, 
+                    Buildings Alyssa, Begonia & Clove Embassy 
+                    Tech Village, Outer Ring Road, Devarabeesanahalli
+                     Village, Bengaluru, 560103, Karnataka, India
+
+                   </p>
+                   <div class="social-p">
+                    <h2>Telephone:</h2>
+                    <div class="social-icons">
+                   
+                    <a href=""><i class="fa-solid fa-phone" style="color: #fcfcfd;"></i></a>
+                    <h4><a href="">+91 7724956789</a></h4>
+                  </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+            </div>
+          <div class="footer-end">
+            <div class="footer-end-items">
+                <i class="fa-solid fa-store" style="color: #FFD43B;"></i>
+                <a href="">Become a Seller</a>
+            </div>
+            <div class="footer-end-items">
+                <i class="fa-solid fa-rectangle-ad" style="color: #FFD43B;"></i>
+                <a href="">Advertise</a>
+            </div>
+            <div class="footer-end-items">
+                <i class="fa-solid fa-gift" style="color: #FFD43B;"></i>
+                <a href="">Gift Cards</a>
+            </div>
+            <div class="footer-end-items">
+                <i class="fa-solid fa-circle-info" style="color: #FFD43B;"></i>
+                <a href="">Help Center</a>
+            </div>
+           
+            <div class="footer-end-items">
+                <h3>© 2024 Made By : Mahendra Gawande 🧑‍💻</h3>
+            </div>
+            <div class="footer-end-items">
+               <img src="./Assets/footerimg.png" alt="">
+            </div>
+          </div>
+        </div>
+    </footer>
+    <!-- footer section end-->
     <!-- Js files -->
-   
+    <script>
+        function myFunction() {
+          // Declare variables
+          var input,body, txtValue;
+          input = document.getElementById('myInput');
+          filter = input.value.toUpperCase();
+          body= document.getElementById("myUL");
+          li = ul.getElementsByTagName('li');
+        
+          // Loop through all list items, and hide those who don't match the search query
+          for (i = 0; i < body.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+            } else {
+              li[i].style.display = "none";
+            }
+          }
+        }
+        </script>
+        
     <!-- swiper js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
